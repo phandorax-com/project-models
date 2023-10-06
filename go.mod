@@ -1,4 +1,4 @@
-module project_models
+module project-models
 
 go 1.21.0
 
