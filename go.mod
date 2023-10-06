@@ -1,4 +1,4 @@
-module project-models
+module github.com/phandorax-com/project-models
 
 go 1.21.0
 
