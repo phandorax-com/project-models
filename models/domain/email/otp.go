@@ -1,8 +1,9 @@
-package model
+package email
 
 type Otp struct {
-	Value string
-	Sub   string
-	Name  string
-	Email string
+	Value    string `json:"value"`
+	Sub      string `json:"sub"`
+	Name     string `json:"name"`
+	Email    string `json:"email"`
+	Template string `json:"template"`
 }
