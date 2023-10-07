@@ -1,4 +1,4 @@
-package queue
+package service
 
 import (
 	"encoding/json"
