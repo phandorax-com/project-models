@@ -1,6 +1,6 @@
 package service
 
-type Message[T any] struct {
+type Email[T any] struct {
 	To       string `json:"to"`
 	Subject  string `json:"subject"`
 	Template string `json:"template"`
